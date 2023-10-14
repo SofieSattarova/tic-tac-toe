@@ -1,0 +1,35 @@
+.game-field__square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.game-field {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px
+}
+
+.game-field__winner {
+    display: flex;
+    align-items: center;
+    margin-left: 30px
+}
+
+.game-field__square-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.game-field__again-button {
+    width: 150px;
+    display: flex;
+    height: 50px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 30px;
+}
